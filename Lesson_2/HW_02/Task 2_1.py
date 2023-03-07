@@ -10,10 +10,10 @@
 #         count_reshka += 1
 # print("Переворачиваем монетки:", count_reshka if count_reshka < n / 2 else n - count_reshka)
 
-#или
-n = int(input())
+#или решение от преподавателя
+n = int(input("Введите количество монеток, лежащих на столе: "))
 count = 0
 for i in range(n):
-    if int(input()):
+    if int(input("Введите сторону монетки: 0 - орел, 1 - решка")):
         count += 1
 print(min(count, n - count))

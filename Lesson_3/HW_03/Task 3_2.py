@@ -13,3 +13,17 @@ for i in range(len(list)):
     if (abs(list[i] - x) < abs(k - x) and list[i] < x) or list[i] == x:
         k = list[i]
 print(k)
+
+#или решение от преподавателя:
+
+# from random import randint
+# list_nums = [randint(1, 21) for _ in range(int(input()))]
+# print(list_nums)
+# num = int(input())
+# right_num = list_nums[0]
+
+# for i in list_nums:
+#     if abs(num - i) < abs(num - right_num):
+#         right_num = i
+# print(right_num)
+

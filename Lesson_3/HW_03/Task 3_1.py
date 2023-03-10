@@ -9,4 +9,19 @@ for i in range(int(input("Введите количество элементов
 print(list)
 x = int(input("Введите число: "))
 print(f"Число {x} встречается {sum([list[i] == x for i in range(len(list))])}")
+
+
+#или решение от преподавателя:
    
+# from random import choices
+
+# num = int(input())
+# list_nums = choices(range(num * 2), k = num)
+# print(list_nums)
+# result = list_nums.count(int(input()))
+# print(result)
+
+#или решение от преподавателя:
+
+# list_nums = [int(input()) for _ in range(int(input()))]
+# print(list_nums.count(int(input())))
